@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Register</class>
+ <widget class="QWidget" name="Register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>134</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Register</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>781</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>Qi</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Value</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>F0</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F4</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F6</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F8</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F10</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F12</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F14</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F16</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F18</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F20</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F22</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F24</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F26</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F28</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>F30</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
