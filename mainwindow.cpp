@@ -681,8 +681,8 @@ void MainWindow::on_pushButton_forward1_clicked()
        ui->pushButton_forward1->setDisabled(TRUE);
        ui->pushButton_forward5->setDisabled(TRUE);
        ui->pushButton_go->setDisabled(TRUE);
-       QString mess = "FINISHED ";
-       QMessageBox::information(NULL,tr("debug"),mess);
+       QString mess = "FINISHED";
+       QMessageBox::information(NULL,tr("Message"),mess);
    }
 }
 
@@ -694,8 +694,8 @@ void MainWindow::on_pushButton_forward5_clicked()
             ui->pushButton_forward1->setDisabled(TRUE);
             ui->pushButton_forward5->setDisabled(TRUE);
             ui->pushButton_go->setDisabled(TRUE);
-            QString mess = "FINISHED ";
-            QMessageBox::information(NULL,tr("debug"),mess);
+            QString mess = "FINISHED";
+            QMessageBox::information(NULL,tr("Message"),mess);
             break;
         }
     }
@@ -703,12 +703,12 @@ void MainWindow::on_pushButton_forward5_clicked()
 
 void MainWindow::on_pushButton_go_clicked()
 {
-    while(simulate()){}
+    while(!simulate()){}
     ui->pushButton_forward1->setDisabled(TRUE);
     ui->pushButton_forward5->setDisabled(TRUE);
     ui->pushButton_go->setDisabled(TRUE);
-    QString mess = "FINISHED ";
-    QMessageBox::information(NULL,tr("debug"),mess);
+    QString mess = "FINISHED";
+    QMessageBox::information(NULL,tr("Message"),mess);
 }
 
 bool MainWindow::simulate(){
